@@ -5113,6 +5113,7 @@ fieldset:disabled .btn {
     align-items: center;
     width: 100%;
     padding: 1.125rem 1.5rem;
+    padding-bottom: .25rem;
     font-size: 1rem;
     color: #4a4b65;
     text-align: left;
@@ -15167,7 +15168,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .accordion-button:hover {
-    color: #766df4
+    color: var(--bs-green-euro)
 }
 
 .accordion-button.no-indicator::after {

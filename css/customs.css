@@ -1379,9 +1379,9 @@
             }
             
             .exampleClass {
-                padding: 12px 24px;
+                padding: 0.435rem 1rem;
                 background-color: var(--bs-yellow-euro);
-                border-radius: 1.2rem;
+                border-radius: 0.5rem;
                 position: relative;
                 overflow: hidden;
                 align-items: center;
@@ -1407,7 +1407,7 @@
                 position: absolute;
                 top: 50%;
                 left: 0;
-                border-radius: 1rem;
+                border-radius: .5rem;
                 transform: translate(-100%, -50%);
                 width: 100%;
                 height: 100%;
@@ -1429,9 +1429,9 @@
             }
             
             .service-more {
-                padding: 5px 10px;
+                padding: 0.435rem 1rem;
                 background-color: var(--bs-yellow-euro);
-                border-radius: 1rem;
+                border-radius: .5rem;
                 position: relative;
                 overflow: hidden;
                 align-items: center;
@@ -1458,7 +1458,7 @@
                 position: absolute;
                 top: 50%;
                 left: 0;
-                border-radius: 1rem;
+                border-radius: .5rem;
                 transform: translate(-100%, -50%);
                 width: 100%;
                 height: 100%;
@@ -1504,4 +1504,28 @@
                 height: 450px;
                 width: auto;
                 object-fit: cover;
+            }
+            
+            p {
+                font-family: Inter, sans-serif;
+            }
+            
+            .sub-text-why {
+                font-size: 12px;
+                color: #37384e !important;
+                margin-left: 1.7rem;
+            }
+            
+            .title-content-why {
+                font-size: 14px;
+                color: var(--bs-green-euro);
+                display: inline;
+                font-weight: 500;
+            }
+            
+            .card-title-blog {
+                font-size: 30px;
+                font-weight: 600;
+                font-family: Playfair Display, serif;
+                color: var(--bs-green-euro)
             }
