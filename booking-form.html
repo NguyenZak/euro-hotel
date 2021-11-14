@@ -565,7 +565,7 @@
                 <div class=" position-relative zindex-5 pb-4 mb-md-3">
                     <div class="row">
                         <!-- Content-->
-                        <div class="col-lg-8">
+                        <div class="col-lg-8 pb-3">
                             <div class="d-flex flex-column bg-light rounded-3 shadow-lg p-4">
                                 <div class="py-2 p-md-3">
                                     <!-- Title + Delete link-->
@@ -641,6 +641,11 @@
                                                 <input class="form-control" id="account-zip" type="text">
                                             </div>
                                         </div>
+                                        <!-- Textarea -->
+                                        <div class="mb-3">
+                                            <label for="textarea-input px-0" class="form-label">Special Requirements</label>
+                                            <textarea class="form-control" id="textarea-input" rows="5">Hello World!</textarea>
+                                        </div>
                                         <div class="col-12">
                                             <hr class="mt-2 mb-4">
                                             <div class="d-flex flex-wrap justify-content-between align-items-center">
@@ -650,8 +655,7 @@
                                                     registered
                                                     users</label>
                                                 </div>
-                                                <button class="btn btn-primary mt-3 mt-sm-0" type="button"><i
-                                                    class="ai-save fs-lg me-2"></i>Save changes
+                                                <button class="btn btn-primary mt-3 mt-sm-0" type="button">Next Step
                                             </button>
                                             </div>
                                         </div>
@@ -662,10 +666,7 @@
                         <!-- Sidebar-->
                         <div class="col-lg-4 mb-4 mb-lg-0">
                             <div class="bg-light rounded-3 shadow-lg">
-
-                                <div class="d-lg-none px-4 pb-4 text-center"><a class="btn btn-primary px-5 mb-2" data-bs-toggle="collapse" href="#account-menu"><i
-                                    class="ai-menu me-2"></i>Account menu</a></div>
-                                <div class="d-lg-block collapse pb-2" id="account-menu">
+                                <div class="d-lg-block pb-2" id="account-menu">
                                     <h1 class="h3 d-block bg-secondary fw-semibold text-muted mb-0 px-4 py-3">Your Reservation
                                     </h1>
                                     <a class="d-flex align-items-center nav-link-style px-4 py-3" href="dashboard-orders.html"> <i class="ai-home fs-lg opacity-60 me-2"></i>Hotel<span class="nav-indicator"></span><span class="text-muted fs-sm fw-normal ms-auto">Name Hotel</span></a><a class="d-flex align-items-center nav-link-style px-4 py-3 border-top"
@@ -697,13 +698,7 @@
                     </div>
             </section>
             <!-- Footer-->
-            <div class="d-sm-flex flex-wrap justify-content-between align-items-center text-center pt-4 ">
-                <div class="form-check d-inline-block mt-2 me-3 ">
-                    <input checked class="form-check-input " id="notify-me " type="checkbox ">
-                    <label class="form-check-label fs-sm " for="notify-me ">Notify me when order is delivered</label>
-                </div>
-                <a class="btn btn-primary btn-sm mt-2 " href="dashboard-orders.html ">Chọn phòng</a>
-            </div>
+
             </div>
     </main>
     <!-- FOOTER -->
