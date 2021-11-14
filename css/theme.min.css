@@ -18321,7 +18321,7 @@ a.card-floating-icon:hover {
     height: 2.75rem;
     transition: all .3s ease-in-out;
     border: 1px solid #e9e9f2;
-    border-radius: .75rem;
+    border-radius: 50%;
     background-color: #fff;
     color: #737491;
     font-size: 1.25rem;
