@@ -110,7 +110,8 @@ h1,
     margin-bottom: .75rem;
     font-weight: 600;
     line-height: 1.2;
-    color: #fff;
+    color: #37384e;
+    font-family: Playfair Display, serif;
 }
 
 h1,
@@ -174,7 +175,10 @@ h6,
 
 p {
     margin-top: 0;
-    margin-bottom: 1.25rem
+    margin-bottom: 1.25rem;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #000;
 }
 
 abbr[title],
@@ -13530,7 +13534,7 @@ a:focus {
 }
 
 a {
-    transition: color .2s ease-in-out
+    transition: .2s ease-in-out
 }
 
 img,
@@ -15730,7 +15734,7 @@ input[type=search]::-webkit-search-results-decoration {
 .nav-link-style {
     display: inline-block;
     transition: color .25s ease-in-out, background-color .25s ease-in-out, box-shadow .25s ease-in-out, border-color .25s ease-in-out;
-    color: #fff;
+    color: #4a4b65;
     font-weight: 500;
     text-decoration: none
 }
@@ -19561,8 +19565,7 @@ html:not([dir=rtl]) .range-slider-ui.noUi-horizontal .noUi-handle {
 }
 
 .card-product {
-    height: 400px;
-    max-width: 20rem;
+    height: auto;
     margin-right: auto;
     margin-left: auto
 }
@@ -19577,9 +19580,7 @@ html:not([dir=rtl]) .range-slider-ui.noUi-horizontal .noUi-handle {
     justify-content: space-around;
     align-items: center;
     padding-top: .5rem;
-    padding-right: 1.25rem;
-    padding-bottom: 1.375rem;
-    padding-left: 1.25rem;
+    padding-bottom: 1rem;
     border: 0
 }
 
