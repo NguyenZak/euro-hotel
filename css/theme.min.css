@@ -6614,6 +6614,14 @@ fieldset:disabled .btn {
     width: 100%;
 }
 
+@media screen and (max-width:768px) {
+    .carousel img {
+        object-fit: cover;
+        height: 500px;
+        width: 100%;
+    }
+}
+
 .carousel.pointer-event {
     touch-action: pan-y
 }
@@ -18408,6 +18416,20 @@ a.card-floating-icon:hover {
 .tns-carousel-progress {
     width: 100%;
     max-width: 10rem
+}
+
+.service-slider {
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .service-slider {
+        object-fit: cover;
+        height: 300px;
+        width: 100%;
+    }
 }
 
 .tns-carousel-progress .progress {
